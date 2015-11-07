@@ -1,0 +1,38 @@
+{
+  "name": "points-to-slope-intercept",
+  "description": "Get slope-intercept equation from two points",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jsfi/points-to-slope-intercept#readme",
+  "author": {
+    "name": "Martin Sachse",
+    "email": "martin.sachse@gmail.com",
+    "url": "http://jsfi.io"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/eslint/bin/eslint.js index.js lib/*.js && node node_modules/mocha/bin/mocha test/**/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jsfi/points-to-slope-intercept.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsfi/points-to-slope-intercept/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [
+    "point",
+    "equation",
+    "function",
+    "geometry",
+    "2d"
+  ],
+  "devDependencies": {
+    "eslint": "^1.9.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.3"
+  }
+}
