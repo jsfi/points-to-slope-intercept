@@ -23,11 +23,6 @@ module.exports = function(p1, p2) {
 
     return {
         m: m,
-        n: getN(x1, y1, m)
+        n: y1 - (m * x1)
     }
-}
-
-//n = y - mx
-function getN(x, y, m) {
-    return y - (m * x);
 }
